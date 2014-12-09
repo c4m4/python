@@ -12,3 +12,4 @@ sh = wb.sheet_by_index(0)
 for rownum in range(sh.nrows):
     if sys.argv[1] in sh.row_values(rownum):
            print sh.row_values(rownum)
+	   break
